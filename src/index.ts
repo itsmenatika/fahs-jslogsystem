@@ -1,7 +1,7 @@
 import { inspect, info, warn, success, error } from 'fahs';
-import { allGroup_collection, cmdTableToCommandCompounts, multiLineConstructor, onlyToRedirect, quickCmdWithAliases, quickSetup, smartArgs } from 'jslogsystem';
+import { allGroup_collection, cmdTable, cmdTableToCommandCompounts, commandCompound, multiLineConstructor, onlyToRedirect, quickCmdWithAliases, quickSetup, smartArgs } from 'jslogsystem';
 
-const commandTable = quickCmdWithAliases("fahs", {
+const commandTable: cmdTable = quickCmdWithAliases("fahs", {
     usageinfo: "fahs <subcommand> [<data>]",
     desc: "Uses fahs library to format data",
     longdesc: multiLineConstructor(
@@ -70,7 +70,7 @@ const commandTable = quickCmdWithAliases("fahs", {
     }
 });
 
-const commandCompounds = cmdTableToCommandCompounts(commandTable);
+const commandCompounds: commandCompound = cmdTableToCommandCompounts(commandTable);
 
 export {
     commandTable, commandTable as FAHS_LOGSYSTEM_COMMANDTABLE, 
