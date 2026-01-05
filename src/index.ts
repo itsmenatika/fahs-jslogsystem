@@ -1,6 +1,5 @@
 import { inspect, info, warn, success, error } from 'fahs';
 import { allGroup_collection, cmdTableToCommandCompounts, multiLineConstructor, onlyToRedirect, quickCmdWithAliases, quickSetup, smartArgs } from 'jslogsystem';
-// success, warn, error, share the same text, just different colors
 
 const commandTable = quickCmdWithAliases("fahs", {
     usageinfo: "fahs <subcommand> [<data>]",

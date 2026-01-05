@@ -1,7 +1,7 @@
 {
-  "homepage": "https://github.com/itsmenatika/jslogsystem",
+  "homepage": "https://github.com/itsmenatika/fahs-jslogsystem",
   "bugs": {
-    "url": "https://github.com/itsmenatika/jslogsystem/issues",
+    "url": "https://github.com/itsmenatika/fahs-jslogsystem/issues",
     "email": "itsmenatika@gmail.com"
   },
   "funding": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/itsmenatika/jslogsystem.git"
+    "url": "https://github.com/itsmenatika/fahs-jslogsystem.git"
   },
   "name": "fahs-jslogsystem",
   "version": "1.0.0",
