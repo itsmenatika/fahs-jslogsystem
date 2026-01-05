@@ -13,7 +13,7 @@
     "url": "https://github.com/itsmenatika/fahs-jslogsystem.git"
   },
   "name": "fahs-jslogsystem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fahs integration with jslogsystem",
   "main": "dist/index.js",
   "scripts": {
