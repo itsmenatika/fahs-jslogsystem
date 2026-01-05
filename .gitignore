@@ -53,6 +53,9 @@ web_modules/
 # Optional eslint cache
 .eslintcache
 
+# jslogsystem specfic
+dev/
+
 # Optional stylelint cache
 .stylelintcache
 
